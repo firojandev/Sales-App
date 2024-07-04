@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                   Text(AppConstants.appName,style:MyTextStyle.titleStyle),
                   const SizedBox(height: 10.0),
                   Text(AppConstants.loginToYourAccount,style: MyTextStyle.textStyle,),
-                  const SizedBox(height: 20.0),
+                  const SizedBox(height: 30.0),
                   TextField(
                     controller: _empIdController,
                     decoration: InputDecoration(
