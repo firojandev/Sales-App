@@ -8,7 +8,7 @@ Sales Order Kenya
 
 2.Register UI
 
-![Register UI](https://github.com/firojandev/Sales-App/blob/main/register.png)
+![Register UI](https://github.com/firojandev/Sales-App/blob/main/registration.png)
 
 
 2.Dashboard Left Menu
