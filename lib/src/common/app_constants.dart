@@ -12,4 +12,7 @@ class AppConstants {
   static String empId = "";
   static String mobile = "";
   static String regNo = "";
+
+  static String loginToYourAccount = "Login to your account";
+
 }
