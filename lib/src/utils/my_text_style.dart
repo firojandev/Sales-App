@@ -14,4 +14,16 @@ class MyTextStyle {
       fontWeight: FontWeight.normal,
       color: MyColors.blackColor,
       fontFamily: "Roboto");
+
+  static const TextStyle textLinkStyle = TextStyle(
+      fontSize: 16.0,
+      fontWeight: FontWeight.normal,
+      color: MyColors.blueColor,
+      fontFamily: "Roboto");
+
+  static const TextStyle textButtonStyle = TextStyle(
+      fontSize: 16.0,
+      fontWeight: FontWeight.normal,
+      color: MyColors.whiteColor,
+      fontFamily: "Roboto");
 }

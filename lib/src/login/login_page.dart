@@ -56,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text(AppConstants.appName,style:MyTextStyle.titleStyle),
+                  const Text(AppConstants.appName,style:MyTextStyle.titleStyle),
                   const SizedBox(height: 10.0),
                   Text(AppConstants.loginToYourAccount,style: MyTextStyle.textStyle,),
                   const SizedBox(height: 30.0),
@@ -173,7 +173,7 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     child: const Text(
                       'Don\'t have an account? Register here',
-                      style: TextStyle(color: Colors.blue,fontSize: 16),
+                      style: MyTextStyle.textLinkStyle,
                     ),
                   ),
                   const SizedBox(height: 10.0),
