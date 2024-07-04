@@ -1,6 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sales_kenya/src/common/app_constants.dart';
+
+import '../common/widgets/CustomAppBar.dart';
+import '../utils/my_colors.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});
@@ -8,9 +10,15 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Dashboard')),
-      body: Center(
-        child: Text(AppConstants.empId),
+      appBar: const MyAppBar(title: "Dashboard"),
+      body: Container(
+        height: MediaQuery.of(context).size.height,
+        decoration: const BoxDecoration(
+            color: MyColors.backgroundLight
+        ),
+        child: Center(
+          child: Text(AppConstants.empId),
+        ),
       ),
     );
   }
