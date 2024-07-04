@@ -9,6 +9,12 @@ class MyTextStyle {
       color: MyColors.blackColor,
       fontFamily: "Roboto");
 
+  static const TextStyle titleStyleWhite = TextStyle(
+      fontSize: 20.0,
+      fontWeight: FontWeight.bold,
+      color: MyColors.whiteColor,
+      fontFamily: "Roboto");
+
   static const TextStyle textStyle = TextStyle(
       fontSize: 16.0,
       fontWeight: FontWeight.normal,
